@@ -16,7 +16,7 @@ Furat Malkawi
 
 * (Submission Pull Request)[]
 
-* (Deployed App)[https://furat-api-server.herokuapp.com]
+* (Deployed App)[https://furat-api-server.herokuapp.com/]
 
 * (Error Report)[]
 
@@ -289,7 +289,10 @@ npm test
 
 ## UML Diagram
 
-!()[] 
+<br><br>
+
+
+![](./assets/images/uml4.PNG)
 
 
 
