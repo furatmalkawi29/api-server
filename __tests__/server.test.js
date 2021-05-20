@@ -131,7 +131,7 @@ describe('api server', () => {
     const response = await request.get(`/api/v1/clothes`);
     //asert
     expect(response.status).toEqual(200);
-    expect(response.body.length).toEqual(1);
+    expect(response.body.length).toBeGreaterThan(0);
   });
 
 
