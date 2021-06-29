@@ -10,6 +10,8 @@ const notFoundHndler = require('./error-handlers/404.js');
 const errorHandler = require('./error-handlers/500.js');
 const foodRoutes = require('./routes/food.js');
 const clothesRoutes = require('./routes/clothes.js');
+const todoRoutes = require('./routes/todo.js');
+
 
 
 //use
@@ -19,6 +21,7 @@ app.use(cors());
 
 // use rout-modules
 app.use('/api/v1/food', foodRoutes);
+app.use('/api/v1/todo', todoRoutes);
 app.use('/api/v1/clothes', clothesRoutes);
 
 
